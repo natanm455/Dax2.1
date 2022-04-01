@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1 class="answer"></h1>
+
+    <div class="box">
+
+    <div class="formBox">
+
+    <form class="mainForm"> 
+
+        <label for="fodseldato">Når er du født</label>
+        <input id="fodselsdato" type="date" name="fodselsdato">
+
+        <label id="wowRace">Hvilken race spiller du på WoW</label>
+        <input id="wowRace" type="text" name="wowRace">
+        
+
+        <label id="isKvinne">Hvilket kjønn identifiserer du deg som?</label>
+        <select id="isKvinne" name="isKvinne">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+
+        <label for="treningPerUke">Hvor ofte trener du i uka?</label>
+        <input id="treningPerUke" type="number" name="treningPerUke">
+
+        <label for="McTjukkasPerManed">Hvor mange ganger har du besøkt McDonald's denne måneden</label>
+        <input id="McTjukkasPerManed" type="number" name="McTjukkasPerManed">
+
+        <label for="antallGangerRettetGeirSinProg">Hvor mange ganger har du rettet geir i programering? ... :(</label>
+        <input id="antallGangerRettetGeirSinProg" type="number" name="antallGangerRettetGeirSinProg">
+
+        <label for="hasFrokostForSkole"> Spiser du Frokost før skolen?</label>
+        <select id="hasFrokostForSkole" name="hasFrokostForSkole">
+            <option value="NEI">NEI</option>
+            <option value="JA">JA</option>
+        </select>
+
+        <label for="hasDrivingMalePartner"> Har du en mann som kjører deg?</label>
+        <select id="hasDrivingMalePartner" name="hasDrivingMalePartner">
+            <option value="NEI">NEI</option>
+            <option value="JA">JA</option>       
+        </select>
+
+        <label for="hasDrivingFemalePartner"> Har du en kvinne som kjører deg?</label>
+            <select id="hasDrivingFemalePartner" name="hasDrivingFemalePartner">
+                <option value="NEI">NEI</option>
+                <option value="JA">JA</option>
+            </select>
+
+        <label for="isSpillerItimen"> Spiller du i timen?</label>
+        <select id="isSpillerItimen" name="isSpillerItimen">
+            <option value="NEI">NEI</option>
+            <option value="JA">JA</option>
+        </select>
+
+        <div class="errorM">
+
+        </div>
+
+        <button id="submitB">Submit Form</button>
+        
+    </form>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

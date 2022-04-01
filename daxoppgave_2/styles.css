@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(27, 17, 17);
+}
+
+
+label {
+    position: relative;
+    left: auto;
+    display: block;
+    margin: 10px;
+    
+}
+
+
+.box {
+    position: relative;
+    left: 8rem;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(83, 22, 22);
+    border-radius: 5%;
+    display: block;
+    color: rgb(255, 246, 246);
+}
+
+.formBox {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+#submitB {
+    display: block;
+    position: relative;
+    left: 15rem;
+    padding: 10px 17px;
+    margin: 20px;
+}
+
+.answer {
+    text-align: center;
+    color:rgb(255, 246, 246)
+}
